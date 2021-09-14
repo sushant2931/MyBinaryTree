@@ -5,11 +5,12 @@ public class MyBinaryTreeMain {
 
 		System.out.println("------ Welcome to Data Structure : Binary Search Tree ------");
 
-		/*
-		 * MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<Integer>();
-		 * myBinaryTree.add(56); myBinaryTree.add(30); myBinaryTree.add(70);
-		 * 
-		 * myBinaryTree.printBinaryTree();
-		 */
+		MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<Integer>();
+		myBinaryTree.add(56);
+		myBinaryTree.add(30);
+		myBinaryTree.add(70);
+
+		myBinaryTree.printBinaryTree();
+
 	}
 }
